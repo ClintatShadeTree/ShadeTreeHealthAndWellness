@@ -1,0 +1,109 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "site_content"
+    label: "Site Content"
+    files:
+      - label: "Site Data"
+        name: "data"
+        file: "src/content/data.json"
+        fields:
+          - {label: "Header", name: "header", widget: "object", fields: [
+              {label: "Logo", name: "logo", widget: "image"},
+              {label: "CTA Text", name: "ctaText", widget: "string"},
+              {label: "CTA Link", name: "ctaLink", widget: "string"},
+              {label: "Navigation Links", name: "navLinks", widget: "list", fields: [
+                {label: "Name", name: "name", widget: "string"},
+                {label: "URL", name: "href", widget: "string"}
+              ]}
+            ]}
+          - {label: "Hero Section", name: "hero", widget: "object", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Subtitle", name: "subtitle", widget: "string"}
+            ]}
+          - {label: "Page Headers", name: "pageHeaders", widget: "object", fields: [
+              {label: "Services Form", name: "services", widget: "object", fields: [
+                {label: "Heading", name: "heading", widget: "string"},
+                {label: "Subheading", name: "subheading", widget: "string"}
+              ]},
+              {label: "Resources Page", name: "resources", widget: "object", fields: [
+                {label: "Heading", name: "heading", widget: "string"},
+                {label: "Subheading", name: "subheading", widget: "string"}
+              ]},
+              {label: "Blog Page", name: "blog", widget: "object", fields: [
+                {label: "Heading", name: "heading", widget: "string"},
+                {label: "Subheading", name: "subheading", widget: "string"}
+              ]},
+              {label: "Testimonials Page", name: "testimonials", widget: "object", fields: [
+                {label: "Heading", name: "heading", widget: "string"},
+                {label: "Subheading", name: "subheading", widget: "string"}
+              ]}
+            ]}
+          - {label: "Process", name: "process", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Subheading", name: "subheading", widget: "string"},
+              {label: "Steps", name: "steps", widget: "list", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Description", name: "description", widget: "text"}
+              ]}
+            ]}
+          - {label: "About Me", name: "about", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Subtitle", name: "subtitle", widget: "string"},
+              {label: "Paragraphs", name: "paragraphs", widget: "list", field: {label: "Paragraph", name: "paragraph", widget: "text"}},
+              {label: "Image", name: "image", widget: "image"}
+            ]}
+          - {label: "Value", name: "value", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Subtitle", name: "subtitle", widget: "string"},
+              {label: "Image", name: "image", widget: "image", required: false},
+              {label: "Benefits", name: "benefits", widget: "list", field: {label: "Benefit", name: "benefit", widget: "string"}},
+              {label: "Testimonials", name: "testimonials", widget: "list", fields: [
+                {label: "Quote", name: "quote", widget: "text"},
+                {label: "Author", name: "author", widget: "string"}
+              ]}
+            ]}
+          - {label: "Services", name: "services", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Subtitle", name: "subtitle", widget: "string"},
+              {label: "Who We Serve", name: "whoWeServe", widget: "list", field: {label: "Group", name: "group", widget: "string"}},
+              {label: "Packages", name: "packages", widget: "list", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Features", name: "features", widget: "list", field: {label: "Feature", name: "feature", widget: "string"}}
+              ]}
+            ]}
+          - {label: "Therapy Vs Coaching", name: "therapyVsCoaching", widget: "object", fields: [
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Description", name: "description", widget: "text"},
+              {label: "Therapy", name: "therapy", widget: "object", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Points", name: "points", widget: "list", field: {label: "Point", name: "point", widget: "string"}}
+              ]},
+              {label: "Coaching", name: "coaching", widget: "object", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Points", name: "points", widget: "list", field: {label: "Point", name: "point", widget: "string"}}
+              ]},
+              {label: "Overlap", name: "overlap", widget: "list", field: {label: "Point", name: "point", widget: "string"}}
+            ]}
+          - {label: "Resources", name: "resources", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Description", name: "description", widget: "text"},
+              {label: "Action", name: "action", widget: "string"},
+              {label: "URL", name: "url", widget: "string"}
+            ]}
+          - {label: "Footer Info", name: "footer", widget: "object", fields: [
+              {label: "Description", name: "description", widget: "text"},
+              {label: "Email", name: "email", widget: "string"},
+              {label: "Phone", name: "phone", widget: "string"},
+              {label: "Location", name: "location", widget: "string"}
+            ]}
+          - {label: "Blogs", name: "blogs", widget: "list", fields: [
+              {label: "Title", name: "title", widget: "string"},
+              {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false},
+              {label: "Content", name: "content", widget: "markdown"}
+            ]}
