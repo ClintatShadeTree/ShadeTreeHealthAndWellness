@@ -11,6 +11,8 @@ import ServicesPage from './pages/ServicesPage';
 import TestimonialsPage from './pages/TestimonialsPage';
 import ResourcesPage from './pages/ResourcesPage';
 import BlogPage from './pages/BlogPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import DisclaimerPage from './pages/DisclaimerPage';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -52,6 +54,8 @@ export default function App() {
             <Route path="/testimonials" element={<TestimonialsPage data={data} />} />
             <Route path="/blog" element={<BlogPage data={data} />} />
             <Route path="/resources" element={<ResourcesPage data={data} />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/disclaimer" element={<DisclaimerPage />} />
           </Routes>
         </main>
         <Footer data={data} />

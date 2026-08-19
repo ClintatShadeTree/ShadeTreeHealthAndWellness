@@ -8,7 +8,7 @@ export default function Hero({ data }: { data?: any }) {
   const easeOutQuart = [0.25, 1, 0.5, 1] as const;
   const easeInOutSine = [0.445, 0.05, 0.55, 0.95] as const;
 
-  const [isFirstLoad, setIsFirstLoad] = useState(!hasPlayedHeroAnimation);
+  const [isFirstLoad] = useState(!hasPlayedHeroAnimation);
 
   useEffect(() => {
     if (!hasPlayedHeroAnimation) {

@@ -47,6 +47,11 @@ export default function Footer({ data }: { data?: any }) {
         </div>
 
         <div className="pt-8 border-t border-slate-blue-800 flex flex-col items-center text-center gap-4 text-xs text-slate-500">
+          <div className="flex items-center gap-4 text-sm text-slate-400 mb-2">
+            <Link to="/privacy-policy" className="hover:text-earth-green transition-colors">Privacy Policy</Link>
+            <span className="text-slate-700">|</span>
+            <Link to="/disclaimer" className="hover:text-earth-green transition-colors">Disclaimer</Link>
+          </div>
           <p>
             Site Owned By Shade Tree Health & Wellness &middot; &copy; {currentYear} &middot; | <a href="https://getbetterbasics.com" target="_blank" rel="noopener noreferrer" className="hover:text-earth-green transition-colors">betterbasics.</a>
           </p>
