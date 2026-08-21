@@ -1,12 +1,26 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Footer({ data }: { data?: any }) {
+  const [emailCopied, setEmailCopied] = useState(false);
   const currentYear = new Date().getFullYear();
   const footerData = data?.footer || {
     description: "Rebuilding lives from the inside out through functional medicine, holistic coaching, and faith-based principles.",
     email: "Clint@ShadeTreeHealthAndWellness.com",
     phone: "(479)-225-3552",
     location: "Tontitown, Arkansas"
+  };
+
+  const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>, email: string) => {
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    
+    if (!isMobile) {
+      e.preventDefault();
+      navigator.clipboard.writeText(email).then(() => {
+        setEmailCopied(true);
+        setTimeout(() => setEmailCopied(false), 2000);
+      });
+    }
   };
 
   return (
@@ -39,7 +53,15 @@ export default function Footer({ data }: { data?: any }) {
           <div>
             <h4 className="text-white font-semibold mb-6">Contact</h4>
             <ul className="space-y-4 text-sm text-slate-400">
-              <li><a href={`mailto:${footerData.email}`} className="hover:text-earth-green transition-colors">{footerData.email}</a></li>
+              <li>
+                <a 
+                  href={`mailto:${footerData.email}`} 
+                  onClick={(e) => handleEmailClick(e, footerData.email)}
+                  className="hover:text-earth-green transition-colors inline-block"
+                >
+                  {emailCopied ? "Email copied to clipboard!" : footerData.email}
+                </a>
+              </li>
               <li><a href={`tel:${footerData.phone.replace(/[^0-9]/g, '')}`} className="hover:text-earth-green transition-colors">{footerData.phone}</a></li>
               <li>{footerData.location}</li>
             </ul>
