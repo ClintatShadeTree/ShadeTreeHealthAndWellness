@@ -1,25 +1,84 @@
 {
-  "process": {
-    "heading": "- Romans 12:1-2 -",
-    "subheading": "Identify • Transform • Heal",
-    "steps": [
+  "resources": [
+    {
+      "title": "Faith and Health Connection",
+      "description": "Connecting the dots between faith and health.",
+      "action": "VISIT",
+      "url": "https://www.faithandhealthconnection.org/landing/pathway-2-wholeness/"
+    },
+    {
+      "title": "Bullet Proof First Responder",
+      "description": "A Christian Worldview for First Responder Issues",
+      "action": "VISIT",
+      "url": "https://bulletprooffirstresponder.com/"
+    },
+    {
+      "title": "Responding To The Call",
+      "description": "Encouraging deeper relationship with Jesus.",
+      "action": "PURCHASE",
+      "url": "https://www.amazon.com/Responding-Call-Resuscitating-Heart-Back/dp/B0BBJTWVGS/ref=sr_1_1?crid=PUUERWLDTX5M&keywords=responding%20to%20the%20call%20clinton%20fleming&qid=1685193964&sprefix=clinton%20fleming%20%2Caps%2C104&sr=8-1"
+    },
+    {
+      "title": "Above Reproach Ministry",
+      "description": "Teaching people how to read the Bible in order to live and teach the Bible themselves.",
+      "action": "VISIT",
+      "url": "https://www.abovereproachministry.com/"
+    },
+    {
+      "title": "Switch On Your Brain",
+      "description": "Restoring your health by transforming the way you think.",
+      "action": "PURCHASE",
+      "url": "https://store.drleaf.com/collections/all/products/switch-on-your-brain"
+    },
+    {
+      "title": "Mission First Alliance",
+      "description": "Mission First Alliance is a National Ministry uniting a movement to bring our Nation’s first responders the hope of Christ.",
+      "action": "VISIT",
+      "url": "https://missionfirstalliance.com/"
+    }
+  ],
+  "header": {
+    "logo": "/uploads/MainLogo.png",
+    "ctaText": "Book a Consultation",
+    "ctaLink": "/services#contact",
+    "navLinks": [
       {
-        "title": "Identify",
-        "description": "Recognize the thought patterns and stressors holding you back."
+        "name": "Process",
+        "href": "/#process"
       },
       {
-        "title": "Transform",
-        "description": "Renew your mind through actionable coaching and steady routines."
+        "name": "About",
+        "href": "/#about"
       },
       {
-        "title": "Heal",
-        "description": "Experience lasting change and live a life transformed from the inside out."
+        "name": "Value",
+        "href": "/#value"
+      },
+      {
+        "name": "Approach",
+        "href": "/#approach"
+      },
+      {
+        "name": "Services",
+        "href": "/services"
+      },
+      {
+        "name": "Resources",
+        "href": "/resources"
+      },
+      {
+        "name": "Blog",
+        "href": "/blog"
+      },
+      {
+        "name": "Testimonials",
+        "href": "/testimonials"
       }
     ]
   },
   "about": {
     "heading": "Meet Clint Fleming",
-    "subtitle": "Board-Certified Nurse & Transformative Coach",
+    "subtitle": "Registered Nurse & Board Certified Transformative Nurse Coach",
     "paragraphs": [
       "At Shade Tree Health & Wellness, I help individuals break free from the cycle of stress, anxiety, depression, and burnout through a root-cause, whole-person approach grounded in faith and evidence-based care.",
       "Chronic stress affects emotions and also disrupts the gut-brain axis. When gut health is imbalanced, inflammation can intensify anxiety, low mood, and fatigue. Restoring gut health is a key part of restoring mental clarity and emotional stability.",
@@ -27,93 +86,9 @@
     ],
     "image": "/uploads/40344.jpeg"
   },
-  "value": {
-    "heading": "The Value of Coaching",
-    "subtitle": "A natural, holistic approach to finding your path to freedom.",
-    "image": "/uploads/Road.jpg",
-    "benefits": [
-      "Focuses on the present and future rather than the past",
-      "Empowers you to take responsibility for your spiritual, physical, and mental health",
-      "Identifies root causes to create lasting lifestyle changes",
-      "Builds mental fitness through action-oriented, S.M.A.R.T. goals",
-      "Provides a safe environment without clinical diagnoses"
-    ],
-    "testimonials": [
-      {
-        "quote": "Clint was absolutely phenomenal in helping me navigate some deeply challenging perspectives that were weighing me down. His dedication was unwavering, creating a safe, non-judgmental space where I felt truly supported, even when discussing the most difficult topics.\n\nEach session was a revelation, uncovering insights I hadn’t noticed before. He skillfully dug deeper, gently provoking thought and guiding me to the core of my challenges with genuine care and curiosity. His commitment to my growth was evident, and I’m profoundly grateful for his expertise. In just four sessions, he helped me resolve the issues I needed to address, leaving me feeling empowered and renewed. I wholeheartedly recommend Clint to anyone seeking meaningful, transformative support!",
-        "author": "Lisa G."
-      },
-      {
-        "quote": "Prior to nurse coaching, I was reluctant to express my true feelings to others. While working with Clint, I was allowed to explore my internal feelings which has allowed me to gain a greater self-confidence when associating with others. Clint always provided a \"safe place\" for me which allowed me to explore my internal feelings.",
-        "author": "Mary J. - New Jersey"
-      },
-      {
-        "quote": "Prior to my Nurse Coaching sessions with Clint, I was unaware of some of the reasons why I would find myself eating 30 minutes after telling myself that I would not. After working with Clint, I became aware of some core reasons why I did the things I did. What I enjoyed the most about our sessions, was the discovery process itself. During our sessions, Clint helped me discover simple techniques that detected and helped me to detour my behavior prior to executing a bad decision. These coaching sessions also helped my self-confidence by not becoming overwhelmed with how others perceived me. I would highly recommend coaching sessions with Clint Fleming!",
-        "author": "Steven H. - North Carolina"
-      },
-      {
-        "quote": "Wow! What an amazing experience! It has been a blessing working with you Clint. Thank you for your willingness to ask the tough questions and encouraging me to go deeper in our coaching sessions. Through your deep listening techniques coupled with masterful questioning, you helped me to unpack areas of my life where I was feeling stuck. You are a great asset to the world of Nurse Coaching. You rock!",
-        "author": "Jaquelyn B. - Texas"
-      },
-      {
-        "quote": "Before working with Clint and focusing on mindfulness, I thought that I had a fair understanding of what it was to be mindful. Throughout our sessions, Clint introduced me to different ideas of what mindfulness can look like and how it can be use in different situations. Clint helped me realize that mindfulness is very unique to each person. Clint helped me in developing mindfulness exercises to help me cope with the stressful situations I was dealt with at work. He really helped me see the importance of this practice to help decrease stress from building up. Clint helped me understand the importance of taking time for myself to confront hardships so I could work through them as they occurred. Clint always had a wealth of knowledge and I enjoyed his insight. His understanding has expanded my awareness of mindfulness practices and their implementation. I would recommend Clint to anyone who is looking to open their mind to what it means to be mindful and how to apply mindfulness to their daily lives. Clint will always give you the space you need, be supportive in your endeavors, and give you the resources you need to be successful.",
-        "author": "Stephanie G. - Albany, New York"
-      },
-      {
-        "quote": "My husband started coaching sessions with Clint prior to me. I saw an immediate positive changes of behavior due to their sessions. The changes in my husband made me excited to engage in coaching sessions with Clint myself. I most enjoyed the freedom that Clint provided in talking out the ideas and thoughts that came to my mind. Clint was so patient with me and this made me feel important. Clint provided a \"safe place\" to process my life challenges. My coaching sessions with Clint help be gain a better understanding of health and wellness. I have a new mindset and a new hope. Clint patiently guided me through my questions to a place that I came to gain perspective. Clint's coaching has been a life changing experience for me. I highly recommend Clint. I trust his skill and guidance.",
-        "author": "Jenny M. - North Carolina"
-      },
-      {
-        "quote": "I was juggling life, marriage, work, friendships, and my fitness and health. I was in the process of trying to figure out how to manage my responsibilities when I started coaching with Clint. The sessions with Clint helped me to prioritize my needs, wants, and desires. I learned time management. Clint was attentive to not tell me what to do but guided me how to think things out for myself. I learned skills which helped me to streamline and have a greater confidence in my decisions.",
-        "author": "Robbie M. - North Carolina"
-      },
-      {
-        "quote": "My coaching sessions with Clint was a much needed experience for me. These sessions allowed me to open up about some challenges that I was facing in my life and helped me find solutions. I have been an ordained minister for twenty-eight years and served in the pastoral role for nine of those years. While pastoring, my son Jalen was diagnosed with Duchenne Muscular Dystrophy at the age of five. The disease has progressed through the years to the point of being totally dependent on my wife and I for his mobility with the exception of Jaden's ability to use a motorized wheelchair, laptop, and cellphone. For the past 12 years my wife and I started taking turns getting up with Jalen two to three times during the night to turn him. But for the last 5 years, I have taken on that responsibility to ease some of the emotional stress off of her sense she is home with him every day. This has taken a toll on me physically and emotionally due to sleep deprivation over the years and I'm working full time. The coach sessions help me to share that stress and gave me an opportunity to share with my family and ask for assistance from them. Sense I resigned from pastoring I have neglected the importance of Bible study, prayer and my physical fitness. I have gained weight and my relationship with God has suffered. I am back in law enforcement from taking off for 12 years to go into the ministry full time. My physical, spiritual and emotional health is a high priority but those areas have been neglected due to life changes. The coaching sessions with Clinton helped me reveal, confront and address these areas with confidence towards practical solutions to overall health. The coaching sessions was something I had been thinking about for several months prior to me become a client. Clinton has a practical, non judgmental approach to health coaching to help the client address the challenges they are experiencing and discovering solutions to their own problems. After each session, Clinton asks me what was beneficial during this session and homework for the next one. I can say that the sessions helped me tremendously to alleviate stressors in my life and to achieving healthier lifestyle through relational accountability. I highly recommend Clinton Fleming as a Nurse Coach!",
-        "author": "Martin L. - South Carolina"
-      },
-      {
-        "quote": "I am deeply grateful for the support and guidance Nurse Coach Clint Fleming provided over the past 13 years, even as he was developing Shade Tree Health and Wellness. During this time, Clint's ability to help me focus on the actual situations I was facing, rather than getting lost in potential \"what if\" scenarios, has been beneficial. His holistic approach, which includes healthy living recommendations, has made a significant difference in my life. Moreover, Clint’s integration of my Christian faith into our sessions has provided me with profound spiritual guidance, as he thoughtfully directs me to specific Bible areas relevant to my circumstances. One situation stands out where Clint helped me to address the challenges I was facing with my aging parent. His approach was incredibly respectful and empathetic, ensuring that all my actions were considerate of my parent's dignity and well-being. Clint's expert advice and guidance gave me the tools to handle this delicate situation with confidence and compassion. His support extended beyond just the immediate issue, as he also provided strategies to manage my stress and emotions effectively, reducing how overwhelmed I felt. Clint’s guidance has been invaluable in helping me make clear decisions and manage my stress levels. His holistic approach, incorporating both physical elements, such as improving my diet and gut health, and spiritual elements, like grounding me in relevant Bible passages, has helped me approach stressful events with a calm, focused mindset. I am better equipped to handle whatever comes my way with grace, mercy, and resilience. Thank you, Clint, for being there for me and many others.",
-        "author": "Bill P. - Long Island, NY"
-      },
-      {
-        "quote": "A trusted friend for many years and coworker for more then 8 years. Clint has an in-depth insight into the riggers of working within our healthcare systems. From front line responders to in-hospital critical care settings. His ability to maintain his career in such high pressure areas I think is related to his own blend of a faith based spiritual, mental and dietary approach. I never converse with Clint without walking away feeling more knowledgeable and spiritually awakened. I think he has a unique and novel set of tools for dealing with the incredible stress of working within the modern day health care system. I would urge anyone in the system to allow Clint to share his story. You have nothing to lose and everything to gain by listening to someone that knows what you’re going through and has a plan to help you make things better at work, home and in society in general. I hope you don’t mind me chiming in Clint. Just feel like you have such a powerful and needed program to share with people. Good luck friend!",
-        "author": "Jim B. - North Carolina"
-      }
-    ]
-  },
-  "services": {
-    "heading": "Coaching Services",
-    "subtitle": "Be empowered to overcome fear, burnout, and stress through targeted, compassionate coaching.",
-    "whoWeServe": [
-      "First Responders and Dispatchers",
-      "Healthcare Professionals",
-      "College Students",
-      "Anyone seeking faith-integrated support"
-    ],
-    "packages": [
-      {
-        "title": "12-Week Private Coaching",
-        "features": [
-          "2-hour comprehensive introduction assessment",
-          "7 weekly one-on-one sessions (1 hour each)",
-          "Personal growth assignments on non-meeting weeks",
-          "Flexible scheduling via weekly video conferences"
-        ]
-      },
-      {
-        "title": "8-Week Private Coaching",
-        "features": [
-          "2-hour comprehensive introduction assessment",
-          "4 weekly one-on-one sessions (1 hour each)",
-          "Personal growth assignments on non-meeting weeks",
-          "Flexible scheduling with weekly text messaging support"
-        ]
-      }
-    ]
-  },
   "therapyVsCoaching": {
     "heading": "Therapy vs Coaching",
-    "description": "Understanding the difference is key to finding the right support. Coaching is especially valuable for those who may be hesitant to seek traditional therapy.",
+    "description": "Nurse coaching offers a forward-moving, whole-person approach that beautifully complements the work clients receive in counseling. While counseling helps individuals process what has shaped them, nurse coaching helps them practice new rhythms, build healthier patterns, and move confidently into the life they're wanting to create. ",
     "therapy": {
       "title": "Therapy",
       "points": [
@@ -138,6 +113,24 @@
       "Safe Environment",
       "Promotes Growth",
       "Active Listening"
+    ]
+  },
+  "process": {
+    "heading": "- Romans 12:1-2 -",
+    "subheading": "Identify • Transform • Heal",
+    "steps": [
+      {
+        "title": "Identify",
+        "description": "Recognize the thought patterns and stressors holding you back."
+      },
+      {
+        "title": "Transform",
+        "description": "Renew your mind through actionable coaching and steady routines."
+      },
+      {
+        "title": "Heal",
+        "description": "Experience lasting change and live a life transformed from the inside out."
+      }
     ]
   },
   "blogs": [
@@ -212,90 +205,57 @@
       "content": "A Biblical Nurse Coach is a Nurse Coach who practices his or her skill by focusing on the intentional, transformative care of the whole client (Mind, Body, Spirit) using sound Biblical principles. Secular forms of Nurse Coaching integrate practices that, although function to serve the health and wellness of an individual, do not intentionally implement practices that embody Christian values rooted within the context of Scripture. \n\nWhy do I find it important to differentiate? In order to maintain the teachings and practices of Jesus Christ, followers must comply with the structure, context, and integrity of the scripture. As a disciple of Jesus Christ, called into this service, I know the only way to true success with those I serve is by reflecting and inviting each into an intimate relationship with Jesus Christ of Nazareth. \n\nClinton Fleming BSN, RN, NC-BC\n\n> \"But be ye doers of the word, and not hearers only, deceiving your own selves.\" - James 1:22\n> \n> \"And we all, with unveiled face, beholding the glory of the Lord, are being transformed into the same image from one degree of glory to another. For this comes from the Lord who is the Spirit.\" - 2 Corinthians 3:18"
     }
   ],
-  "hero": {
-    "title": "Shade Tree",
-    "subtitle": "Health & Wellness"
-  },
-  "resources": [
-    {
-      "title": "Faith and Health Connection",
-      "description": "Connecting the dots between faith and health.",
-      "action": "VISIT",
-      "url": "https://www.faithandhealthconnection.org/landing/pathway-2-wholeness/"
-    },
-    {
-      "title": "Bullet Proof First Responder",
-      "description": "A Christian Worldview for First Responder Issues",
-      "action": "VISIT",
-      "url": "https://bulletprooffirstresponder.com/"
-    },
-    {
-      "title": "Responding To The Call",
-      "description": "Encouraging deeper relationship with Jesus.",
-      "action": "PURCHASE",
-      "url": "https://www.amazon.com/Responding-Call-Resuscitating-Heart-Back/dp/B0BBJTWVGS/ref=sr_1_1?crid=PUUERWLDTX5M&keywords=responding%20to%20the%20call%20clinton%20fleming&qid=1685193964&sprefix=clinton%20fleming%20%2Caps%2C104&sr=8-1"
-    },
-    {
-      "title": "Above Reproach Ministry",
-      "description": "Teaching people how to read the Bible in order to live and teach the Bible themselves.",
-      "action": "VISIT",
-      "url": "https://www.abovereproachministry.com/"
-    },
-    {
-      "title": "Switch On Your Brain",
-      "description": "Restoring your health by transforming the way you think.",
-      "action": "PURCHASE",
-      "url": "https://store.drleaf.com/collections/all/products/switch-on-your-brain"
-    },
-    {
-      "title": "Mission First Alliance",
-      "description": "Mission First Alliance is a National Ministry uniting a movement to bring our Nation’s first responders the hope of Christ.",
-      "action": "VISIT",
-      "url": "https://missionfirstalliance.com/"
-    }
-  ],
-  "footer": {
-    "description": "Rebuilding lives from the inside out through functional medicine, holistic coaching, and faith-based principles.",
-    "email": "Clint@ShadeTreeHealthAndWellness.com",
-    "phone": "(479)-225-3552",
-    "location": "Tontitown, Arkansas"
-  },
-  "header": {
-    "logo": "/uploads/MainLogo.png",
-    "ctaText": "Book a Consultation",
-    "ctaLink": "/services#contact",
-    "navLinks": [
+  "value": {
+    "heading": "The Value of Nurse Coaching",
+    "subtitle": "A natural, holistic approach to finding your path to freedom.",
+    "image": "/uploads/Road.jpg",
+    "benefits": [
+      "Focuses on the present and future rather than the past",
+      "Empowers you to take responsibility for your spiritual, physical, and mental health",
+      "Identifies root causes to create lasting lifestyle changes",
+      "Builds mental fitness through action-oriented, S.M.A.R.T. goals",
+      "Provides a safe environment without clinical diagnoses"
+    ],
+    "testimonials": [
       {
-        "name": "Process",
-        "href": "/#process"
+        "quote": "Clint was absolutely phenomenal in helping me navigate some deeply challenging perspectives that were weighing me down. His dedication was unwavering, creating a safe, non-judgmental space where I felt truly supported, even when discussing the most difficult topics.\n\nEach session was a revelation, uncovering insights I hadn’t noticed before. He skillfully dug deeper, gently provoking thought and guiding me to the core of my challenges with genuine care and curiosity. His commitment to my growth was evident, and I’m profoundly grateful for his expertise. In just four sessions, he helped me resolve the issues I needed to address, leaving me feeling empowered and renewed. I wholeheartedly recommend Clint to anyone seeking meaningful, transformative support!",
+        "author": "Lisa G."
       },
       {
-        "name": "About",
-        "href": "/#about"
+        "quote": "Prior to nurse coaching, I was reluctant to express my true feelings to others. While working with Clint, I was allowed to explore my internal feelings which has allowed me to gain a greater self-confidence when associating with others. Clint always provided a \"safe place\" for me which allowed me to explore my internal feelings.",
+        "author": "Mary J. - New Jersey"
       },
       {
-        "name": "Value",
-        "href": "/#value"
+        "quote": "Prior to my Nurse Coaching sessions with Clint, I was unaware of some of the reasons why I would find myself eating 30 minutes after telling myself that I would not. After working with Clint, I became aware of some core reasons why I did the things I did. What I enjoyed the most about our sessions, was the discovery process itself. During our sessions, Clint helped me discover simple techniques that detected and helped me to detour my behavior prior to executing a bad decision. These coaching sessions also helped my self-confidence by not becoming overwhelmed with how others perceived me. I would highly recommend coaching sessions with Clint Fleming!",
+        "author": "Steven H. - North Carolina"
       },
       {
-        "name": "Approach",
-        "href": "/#approach"
+        "quote": "Wow! What an amazing experience! It has been a blessing working with you Clint. Thank you for your willingness to ask the tough questions and encouraging me to go deeper in our coaching sessions. Through your deep listening techniques coupled with masterful questioning, you helped me to unpack areas of my life where I was feeling stuck. You are a great asset to the world of Nurse Coaching. You rock!",
+        "author": "Jaquelyn B. - Texas"
       },
       {
-        "name": "Services",
-        "href": "/services"
+        "quote": "Before working with Clint and focusing on mindfulness, I thought that I had a fair understanding of what it was to be mindful. Throughout our sessions, Clint introduced me to different ideas of what mindfulness can look like and how it can be use in different situations. Clint helped me realize that mindfulness is very unique to each person. Clint helped me in developing mindfulness exercises to help me cope with the stressful situations I was dealt with at work. He really helped me see the importance of this practice to help decrease stress from building up. Clint helped me understand the importance of taking time for myself to confront hardships so I could work through them as they occurred. Clint always had a wealth of knowledge and I enjoyed his insight. His understanding has expanded my awareness of mindfulness practices and their implementation. I would recommend Clint to anyone who is looking to open their mind to what it means to be mindful and how to apply mindfulness to their daily lives. Clint will always give you the space you need, be supportive in your endeavors, and give you the resources you need to be successful.",
+        "author": "Stephanie G. - Albany, New York"
       },
       {
-        "name": "Resources",
-        "href": "/resources"
+        "quote": "My husband started coaching sessions with Clint prior to me. I saw an immediate positive changes of behavior due to their sessions. The changes in my husband made me excited to engage in coaching sessions with Clint myself. I most enjoyed the freedom that Clint provided in talking out the ideas and thoughts that came to my mind. Clint was so patient with me and this made me feel important. Clint provided a \"safe place\" to process my life challenges. My coaching sessions with Clint help be gain a better understanding of health and wellness. I have a new mindset and a new hope. Clint patiently guided me through my questions to a place that I came to gain perspective. Clint's coaching has been a life changing experience for me. I highly recommend Clint. I trust his skill and guidance.",
+        "author": "Jenny M. - North Carolina"
       },
       {
-        "name": "Blog",
-        "href": "/blog"
+        "quote": "I was juggling life, marriage, work, friendships, and my fitness and health. I was in the process of trying to figure out how to manage my responsibilities when I started coaching with Clint. The sessions with Clint helped me to prioritize my needs, wants, and desires. I learned time management. Clint was attentive to not tell me what to do but guided me how to think things out for myself. I learned skills which helped me to streamline and have a greater confidence in my decisions.",
+        "author": "Robbie M. - North Carolina"
       },
       {
-        "name": "Testimonials",
-        "href": "/testimonials"
+        "quote": "My coaching sessions with Clint was a much needed experience for me. These sessions allowed me to open up about some challenges that I was facing in my life and helped me find solutions. I have been an ordained minister for twenty-eight years and served in the pastoral role for nine of those years. While pastoring, my son Jalen was diagnosed with Duchenne Muscular Dystrophy at the age of five. The disease has progressed through the years to the point of being totally dependent on my wife and I for his mobility with the exception of Jaden's ability to use a motorized wheelchair, laptop, and cellphone. For the past 12 years my wife and I started taking turns getting up with Jalen two to three times during the night to turn him. But for the last 5 years, I have taken on that responsibility to ease some of the emotional stress off of her sense she is home with him every day. This has taken a toll on me physically and emotionally due to sleep deprivation over the years and I'm working full time. The coach sessions help me to share that stress and gave me an opportunity to share with my family and ask for assistance from them. Sense I resigned from pastoring I have neglected the importance of Bible study, prayer and my physical fitness. I have gained weight and my relationship with God has suffered. I am back in law enforcement from taking off for 12 years to go into the ministry full time. My physical, spiritual and emotional health is a high priority but those areas have been neglected due to life changes. The coaching sessions with Clinton helped me reveal, confront and address these areas with confidence towards practical solutions to overall health. The coaching sessions was something I had been thinking about for several months prior to me become a client. Clinton has a practical, non judgmental approach to health coaching to help the client address the challenges they are experiencing and discovering solutions to their own problems. After each session, Clinton asks me what was beneficial during this session and homework for the next one. I can say that the sessions helped me tremendously to alleviate stressors in my life and to achieving healthier lifestyle through relational accountability. I highly recommend Clinton Fleming as a Nurse Coach!",
+        "author": "Martin L. - South Carolina"
+      },
+      {
+        "quote": "I am deeply grateful for the support and guidance Nurse Coach Clint Fleming provided over the past 13 years, even as he was developing Shade Tree Health and Wellness. During this time, Clint's ability to help me focus on the actual situations I was facing, rather than getting lost in potential \"what if\" scenarios, has been beneficial. His holistic approach, which includes healthy living recommendations, has made a significant difference in my life. Moreover, Clint’s integration of my Christian faith into our sessions has provided me with profound spiritual guidance, as he thoughtfully directs me to specific Bible areas relevant to my circumstances. One situation stands out where Clint helped me to address the challenges I was facing with my aging parent. His approach was incredibly respectful and empathetic, ensuring that all my actions were considerate of my parent's dignity and well-being. Clint's expert advice and guidance gave me the tools to handle this delicate situation with confidence and compassion. His support extended beyond just the immediate issue, as he also provided strategies to manage my stress and emotions effectively, reducing how overwhelmed I felt. Clint’s guidance has been invaluable in helping me make clear decisions and manage my stress levels. His holistic approach, incorporating both physical elements, such as improving my diet and gut health, and spiritual elements, like grounding me in relevant Bible passages, has helped me approach stressful events with a calm, focused mindset. I am better equipped to handle whatever comes my way with grace, mercy, and resilience. Thank you, Clint, for being there for me and many others.",
+        "author": "Bill P. - Long Island, NY"
+      },
+      {
+        "quote": "A trusted friend for many years and coworker for more then 8 years. Clint has an in-depth insight into the riggers of working within our healthcare systems. From front line responders to in-hospital critical care settings. His ability to maintain his career in such high pressure areas I think is related to his own blend of a faith based spiritual, mental and dietary approach. I never converse with Clint without walking away feeling more knowledgeable and spiritually awakened. I think he has a unique and novel set of tools for dealing with the incredible stress of working within the modern day health care system. I would urge anyone in the system to allow Clint to share his story. You have nothing to lose and everything to gain by listening to someone that knows what you’re going through and has a plan to help you make things better at work, home and in society in general. I hope you don’t mind me chiming in Clint. Just feel like you have such a powerful and needed program to share with people. Good luck friend!",
+        "author": "Jim B. - North Carolina"
       }
     ]
   },
@@ -316,5 +276,45 @@
       "heading": "Testimonials",
       "subheading": "Hear from those who have journeyed with us."
     }
+  },
+  "hero": {
+    "title": "Shade Tree",
+    "subtitle": "Health & Wellness"
+  },
+  "footer": {
+    "description": "Rebuilding lives from the inside out through functional medicine, holistic coaching, and faith-based principles.",
+    "email": "Clint@ShadeTreeHealthAndWellness.com",
+    "phone": "(479)-225-3552",
+    "location": "Tontitown, Arkansas"
+  },
+  "services": {
+    "heading": "Coaching Services",
+    "subtitle": "Be empowered to overcome fear, burnout, and stress through targeted, compassionate coaching.",
+    "whoWeServe": [
+      "First Responders and Dispatchers",
+      "Healthcare Professionals",
+      "College Students",
+      "Anyone seeking faith-integrated support"
+    ],
+    "packages": [
+      {
+        "title": "12-Week Private Coaching",
+        "features": [
+          "2-hour comprehensive introduction assessment",
+          "7 weekly one-on-one sessions (1 hour each)",
+          "Personal growth assignments on non-meeting weeks",
+          "Flexible scheduling via weekly video conferences"
+        ]
+      },
+      {
+        "title": "8-Week Private Coaching",
+        "features": [
+          "2-hour comprehensive introduction assessment",
+          "4 weekly one-on-one sessions (1 hour each)",
+          "Personal growth assignments on non-meeting weeks",
+          "Flexible scheduling with weekly text messaging support"
+        ]
+      }
+    ]
   }
 }
