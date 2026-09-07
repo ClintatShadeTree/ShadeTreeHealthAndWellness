@@ -79,6 +79,14 @@
       {
         "name": "Testimonials",
         "href": "/testimonials"
+      },
+      {
+        "name": "Packages",
+        "href": "/packages "
+      },
+      {
+        "name": "Membership Options",
+        "href": "/membership options"
       }
     ]
   },
