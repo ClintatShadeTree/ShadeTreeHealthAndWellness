@@ -2,7 +2,7 @@ import Services from '../components/Services';
 
 export default function ServicesPage({ data }: { data: any }) {
   const pageHeader = data?.pageHeaders?.services || {
-    heading: "Book a Consultation",
+    heading: "Book A Free Consultation",
     subheading: "Ready to take the next step? Fill out the form below and we will get back to you shortly."
   };
 

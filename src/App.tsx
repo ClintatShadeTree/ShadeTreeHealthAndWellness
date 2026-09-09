@@ -14,6 +14,8 @@ import BlogPage from './pages/BlogPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import DisclaimerPage from './pages/DisclaimerPage';
 import Footer from './components/Footer';
+import RestoredToRise from './pages/RestoredToRise';
+
 import ScrollToTop from './components/ScrollToTop';
 
 // In a real Decap CMS setup, this could be fetched dynamically if pre-rendered, 
@@ -54,6 +56,7 @@ export default function App() {
             <Route path="/testimonials" element={<TestimonialsPage data={data} />} />
             <Route path="/blog" element={<BlogPage data={data} />} />
             <Route path="/resources" element={<ResourcesPage data={data} />} />
+            <Route path="/restored-to-rise" element={<RestoredToRise />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
             <Route path="/disclaimer" element={<DisclaimerPage />} />
           </Routes>

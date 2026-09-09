@@ -22,7 +22,7 @@ export default function Header({ data }: { data?: any }) {
 
   const headerData = data?.header || {
     logo: "/uploads/MainLogo.png",
-    ctaText: "Book a Consultation",
+    ctaText: "Book A Free Consultation",
     ctaLink: "/services#contact",
     navLinks: [
       { name: 'Process', href: '/#process' },
