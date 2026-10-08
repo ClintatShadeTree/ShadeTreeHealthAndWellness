@@ -111,8 +111,13 @@ collections:
               {label: "Phone", name: "phone", widget: "string"},
               {label: "Location", name: "location", widget: "string"}
             ]}
-          - {label: "Blogs", name: "blogs", widget: "list", fields: [
-              {label: "Title", name: "title", widget: "string"},
-              {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false},
-              {label: "Content", name: "content", widget: "markdown"}
-            ]}
+          - label: "Blogs"
+            name: "blogs"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.date}})"
+            collapsed: true
+            add_to_top: true
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false}
+              - {label: "Content", name: "content", widget: "markdown"}

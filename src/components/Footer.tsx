@@ -75,7 +75,7 @@ export default function Footer({ data }: { data?: any }) {
             <Link to="/disclaimer" className="hover:text-earth-green transition-colors">Disclaimer</Link>
           </div>
           <p>
-            Site Owned By Shade Tree Health & Wellness &middot; &copy; {currentYear} &middot; | <a href="https://getbetterbasics.com" target="_blank" rel="noopener noreferrer" className="hover:text-earth-green transition-colors">betterbasics.</a>
+            Site Owned By Shade Tree Health & Wellness &middot; &copy; {currentYear} | <a href="https://getbetterbasics.com" target="_blank" rel="noopener noreferrer" className="hover:text-earth-green transition-colors">betterbasics.</a>
           </p>
         </div>
       </div>

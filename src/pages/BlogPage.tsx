@@ -3,6 +3,20 @@ import { X, Calendar, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import ReactMarkdown from 'react-markdown';
 
+const formatDate = (dateStr?: string) => {
+  if (!dateStr) return '';
+  const parts = String(dateStr).split('-');
+  if (parts.length === 3) {
+    const [year, month, day] = parts.map(Number);
+    if (!isNaN(year) && !isNaN(month) && !isNaN(day)) {
+      const date = new Date(Date.UTC(year, month - 1, day));
+      return date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+    }
+  }
+  const date = new Date(dateStr);
+  return isNaN(date.getTime()) ? String(dateStr) : date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+};
+
 const BlogCard = ({ blog, isFeatured, onClick }: { blog: any, isFeatured?: boolean, onClick: () => void }) => {
   return (
     <div 
@@ -15,15 +29,17 @@ const BlogCard = ({ blog, isFeatured, onClick }: { blog: any, isFeatured?: boole
         <h3 className={`font-sans font-semibold text-white leading-tight ${isFeatured ? 'text-3xl md:text-5xl mb-4 pr-20' : 'text-xl md:text-2xl pr-12'}`}>
           {blog.title}
         </h3>
-        <div className="flex items-center gap-2 text-earth-green/80 text-sm">
-          <Calendar size={14} />
-          <span>{new Date(blog.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-        </div>
+        {blog.date && (
+          <div className="flex items-center gap-2 text-earth-green/80 text-sm">
+            <Calendar size={14} />
+            <span>{formatDate(blog.date)}</span>
+          </div>
+        )}
       </div>
       
       <div className="relative h-32 overflow-hidden mb-6">
         <div className={`text-slate-300 leading-relaxed relative z-10 pr-6 [&_*]:font-sans ${isFeatured ? 'text-lg' : 'text-sm'}`}>
-          <ReactMarkdown>{blog.content}</ReactMarkdown>
+          <ReactMarkdown>{blog.content || ''}</ReactMarkdown>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-slate-blue-800 to-transparent z-20 pointer-events-none" />
       </div>
@@ -44,7 +60,9 @@ export default function BlogPage({ data }: { data: any }) {
   };
   
   // Sort blogs by date descending
-  const sortedBlogs = data.blogs ? [...data.blogs].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()) : [];
+  const sortedBlogs = data?.blogs && Array.isArray(data.blogs) 
+    ? [...data.blogs].sort((a, b) => new Date(b?.date || 0).getTime() - new Date(a?.date || 0).getTime()) 
+    : [];
   const featuredBlog = sortedBlogs[0];
   const otherBlogs = sortedBlogs.slice(1);
 
@@ -112,14 +130,16 @@ export default function BlogPage({ data }: { data: any }) {
                 <h2 className="text-3xl md:text-5xl font-serif text-white mb-6 leading-tight pr-12">
                   {selectedBlog.title}
                 </h2>
-                <div className="flex items-center gap-2 text-earth-green font-medium">
-                  <Calendar size={16} />
-                  <span>{new Date(selectedBlog.date).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                </div>
+                {selectedBlog.date && (
+                  <div className="flex items-center gap-2 text-earth-green font-medium">
+                    <Calendar size={16} />
+                    <span>{formatDate(selectedBlog.date)}</span>
+                  </div>
+                )}
               </div>
               
               <div className="prose prose-invert prose-lg max-w-none prose-headings:font-serif prose-a:text-earth-green hover:prose-a:text-earth-green-hover">
-                <ReactMarkdown>{selectedBlog.content}</ReactMarkdown>
+                <ReactMarkdown>{selectedBlog.content || ''}</ReactMarkdown>
               </div>
             </motion.div>
           </motion.div>
